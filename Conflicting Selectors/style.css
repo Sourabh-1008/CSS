@@ -1,0 +1,39 @@
+.author{
+    font-style: italic;
+    font-size: 18px;
+}
+#author-text{
+    font-size: 20px;
+}
+p,li{
+    font-family: sans-serif;
+    color: #44444444;
+    font-size: 22px;
+}
+
+/*
+
+🤔There are multiple selectors the same element.
+Which one of them applies?
+🤓All of them. All rules are properties are applied!
+ ⬇
+ ⬇
+🤔But there are conflicting font-size declarations!
+Is it 18px, or 20px, or 22px?
+🤓Let's see how it works..
+
+Highest Priority
+1.Declarations maked ! important 
+ ⬇ No important!?
+2.Inline style(style attribute in HTML)
+ ⬇ No inline style?
+3.ID (#) selector
+ ⬇ No # selector?
+4.Class (.) or pseudo-class (:) selector
+ ⬇ No . or : selector?
+5.Element selector (p,div,li,etc)
+ ⬇ No element selector?
+6.Universal selector (*)
+
+Lowest Priority
+*/
