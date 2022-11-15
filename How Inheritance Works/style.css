@@ -1,0 +1,17 @@
+body {
+  /*Parent Element*/
+  color: #444444;
+  font-size: 16px;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ab; /*the border property does Not get inherited */
+}
+h1 {
+  color: #1098ab; /*Overriding Inherited Styles*/
+  font-size: 32px; /*Overriding Inherited Styles*/
+  text-transform: uppercase;
+}
+
+/*
+☝Not all properties get inherited. It's mostly ones related to text: font-family, font-size, font-weight, font- style, color, line-height, letter-spacing, text-align, text-transform, text-shadow, list-style, etc
+*/
